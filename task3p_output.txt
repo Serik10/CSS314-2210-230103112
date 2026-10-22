@@ -1,0 +1,8 @@
+Student ID       : 230103112
+Elements         : 2,000,000 (values 1-10)   Workers: 8   Logical cores: 8
+Serial Time      : 221.05 ms   (pure-Python loop)
+Parallel Time    : 11.54 ms   (2-pass chunked, 8 thread(s))
+Speedup          : 19.15x
+Last element     : serial = 11000482 | parallel = 11000482
+Verification     : PASS
+(reference: single-thread np.cumsum = 18.66 ms)
