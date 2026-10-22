@@ -1,0 +1,6 @@
+=== Task 2: PRNG State Isolation ===
+Student ID : 230103112
+Samples    : 40,000,000   Threads: 4   Logical cores: 8
+Shared PRNG (mutex)          : pi = 3.14189740 | abs error = 0.00030475 | time = 39850.27 ms
+Independent PRNG per thread  : pi = 3.14180310 | abs error = 0.00021045 | time = 8337.59 ms
+Speedup from removing lock (Shared / Independent): 4.78x
